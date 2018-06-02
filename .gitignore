@@ -1,4 +1,4 @@
 *.class
 .idea/
-.target/
+target
 three4g-examples.iml
