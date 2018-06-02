@@ -12,7 +12,7 @@ public class Examples implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
-        load();
+       load();
     }
 
     public static void load() {
