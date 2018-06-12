@@ -3,6 +3,7 @@ package org.treblereel.gwt.three4g.examples.loaders;
 import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 import org.treblereel.gwt.three4g.core.BufferGeometry;
+import org.treblereel.gwt.three4g.core.JsObject;
 
 /**
  * @author Dmitrii Tikhomirov
@@ -15,5 +16,5 @@ public class PDB {
 
     public BufferGeometry geometryBonds;
 
-    public String JSON;
+    public JsObject json;
 }

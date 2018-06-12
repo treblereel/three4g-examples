@@ -15,7 +15,7 @@ public class ConvexBufferGeometry extends BufferGeometry {
     /**
      * @param points — Array of Vector3s that the resulting convex hull will contain.
      */
-    public ConvexBufferGeometry(Vector3... points){
+    public ConvexBufferGeometry(Vector3[] points){
 
     }
 }

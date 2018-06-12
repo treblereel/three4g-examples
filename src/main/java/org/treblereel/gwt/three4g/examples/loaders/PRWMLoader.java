@@ -40,7 +40,7 @@ public class PRWMLoader {
      * @param url    — A string containing the path/URL of the .prwm file. Any * character in the URL will be automatically replaced by le or be depending on the platform endianness.
      * @param onLoad —  A function to be called after the loading is successfully completed. The function receives the loaded BufferGeometry as an argument.
      */
-    public native void load(String url, OnLoadCallback<BufferGeometry> onLoad);
+    public native void load(String url, OnLoadCallback onLoad);
 
     /**
      * Begin loading from url and call onLoad with the parsed response content.
@@ -49,7 +49,7 @@ public class PRWMLoader {
      * @param onLoad     —  A function to be called after the loading is successfully completed. The function receives the loaded BufferGeometry as an argument.
      * @param onProgress —  A function to be called while the loading is in progress. The function receives a XMLHttpRequest instance, which contains total and loaded bytes.
      */
-    public native void load(String url, OnLoadCallback<BufferGeometry> onLoad, OnProgressCallback onProgress);
+    public native void load(String url, OnLoadCallback onLoad, OnProgressCallback onProgress);
 
     /**
      * Begin loading from url and call onLoad with the parsed response content.
@@ -59,7 +59,7 @@ public class PRWMLoader {
      * @param onProgress —  A function to be called while the loading is in progress. The function receives a XMLHttpRequest instance, which contains total and loaded bytes.
      * @param onError    —  A function to be called if an error occurs during loading. The function receives error as an argument.
      */
-    public native void load(String url, OnLoadCallback<BufferGeometry> onLoad, OnProgressCallback onProgress, OnErrorCallback onError);
+    public native void load(String url, OnLoadCallback onLoad, OnProgressCallback onProgress, OnErrorCallback onError);
 
     /**
      * Parse a prwm file passed as an ArrayBuffer and directly return an instance of BufferGeometry.

@@ -6,7 +6,7 @@ import org.treblereel.gwt.three4g.loaders.OnErrorCallback;
 import org.treblereel.gwt.three4g.loaders.OnLoadCallback;
 import org.treblereel.gwt.three4g.loaders.OnProgressCallback;
 import org.treblereel.gwt.three4g.loaders.managers.LoadingManager;
-import org.treblereel.gwt.three4g.textures.DataTexture;
+import org.treblereel.gwt.three4g.textures.Texture;
 
 /**
  * A loader for loading a .tga resource.
@@ -31,7 +31,7 @@ public class TGALoader {
      *
      * @param url — A string containing the path/URL of the .tga file.
      */
-    public native void load(String url);
+    public native Texture load(String url);
 
     /**
      * Begin loading from url and pass the loaded texture to onLoad. The texture is also directly returned for immediate use (but may not be fully loaded).
@@ -39,7 +39,7 @@ public class TGALoader {
      * @param url    — A string containing the path/URL of the .tga file.
      * @param onLoad —  A function to be called after loading is successfully completed. The function receives loaded DataTexture as an argument.
      */
-    public native void load(String url, OnLoadCallback<DataTexture> onLoad);
+    public native void load(String url, OnLoadCallback<Texture> onLoad);
 
     /**
      * Begin loading from url and pass the loaded texture to onLoad. The texture is also directly returned for immediate use (but may not be fully loaded).
@@ -48,7 +48,7 @@ public class TGALoader {
      * @param onLoad     —  A function to be called after loading is successfully completed. The function receives loaded DataTexture as an argument.
      * @param onProgress —  A function to be called while the loading is in progress. The argument will be the XMLHttpRequest instance, which contains .total and .loaded bytes.
      */
-    public native void load(String url, OnLoadCallback<DataTexture> onLoad, OnProgressCallback onProgress);
+    public native void load(String url, OnLoadCallback<Texture> onLoad, OnProgressCallback onProgress);
 
     /**
      * Begin loading from url and pass the loaded texture to onLoad. The texture is also directly returned for immediate use (but may not be fully loaded).
@@ -58,13 +58,13 @@ public class TGALoader {
      * @param onProgress —  A function to be called while the loading is in progress. The argument will be the XMLHttpRequest instance, which contains .total and .loaded bytes.
      * @param onError    —  A function to be called if an error occurs during loading. The function receives the error as an argument.
      */
-    public native void load(String url, OnLoadCallback<DataTexture> onLoad, OnProgressCallback onProgress, OnErrorCallback onError);
+    public native void load(String url, OnLoadCallback<Texture> onLoad, OnProgressCallback onProgress, OnErrorCallback onError);
 
 
     /**
      * //TODO check it
      * @param text — ArrayBuffer to parse.
-     * @return instance of DataTexture
+     * @return instance of Texture
      */
-    public native DataTexture parse(ArrayBuffer text);
+    public native Texture parse(ArrayBuffer text);
 }

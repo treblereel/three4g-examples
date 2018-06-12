@@ -23,7 +23,7 @@ public class SceneUtils {
      * @param materials -- The materials for the object.
      * @return instance of Group
      */
-    public native static Group createMultiMaterialObject(Geometry geometry, Material... materials);
+    public native static Group createMultiMaterialObject(Geometry geometry, Material[] materials);
 
     /**
      * Attaches the object to the parent without the moving the object in the worldspace. Beware that to do this the matrixWorld needs to be updated, this can be done by calling the updateMatrixWorld method on the parent object.

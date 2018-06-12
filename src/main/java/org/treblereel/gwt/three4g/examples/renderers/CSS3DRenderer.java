@@ -1,5 +1,6 @@
 package org.treblereel.gwt.three4g.examples.renderers;
 
+import elemental2.dom.HTMLElement;
 import jsinterop.annotations.JsType;
 import org.treblereel.gwt.three4g.cameras.Camera;
 import org.treblereel.gwt.three4g.core.HeightWidth;
@@ -19,6 +20,14 @@ import org.treblereel.gwt.three4g.scenes.Scene;
  */
 @JsType(isNative = true, namespace = "THREE")
 public class CSS3DRenderer {
+
+    /**
+     * A canvas where the renderer draws its output.
+     * This is automatically created by the renderer in the constructor (if not provided already); you just need to
+     * add it to your page like so:
+     * document.body.appendChild( renderer.domElement );
+     */
+    public HTMLElement domElement;
 
 
     public CSS3DRenderer() {

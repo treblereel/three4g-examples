@@ -26,7 +26,7 @@ public class BufferGeometryUtils {
      * @param geometries -- Array of BufferGeometry instances.
      * @return instance of BufferGeometry
      */
-    public native static BufferGeometry mergeBufferGeometries(BufferGeometry... geometries);
+    public native static BufferGeometry mergeBufferGeometries(BufferGeometry[] geometries);
 
     /**
      * Merges a set of attributes into a single instance. All attributes must have compatible properties and types, and InterleavedBufferAttributes are not supported. If merge does not succeed, the method returns null.
@@ -34,6 +34,6 @@ public class BufferGeometryUtils {
      * @param attributes -- Array of BufferAttribute instances.
      * @return instance of BufferAttribute
      */
-    public native static BufferAttribute mergeBufferAttribute(BufferAttribute... attributes);
+    public native static BufferAttribute mergeBufferAttribute(BufferAttribute[] attributes);
 
 }
