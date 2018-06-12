@@ -86,4 +86,23 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
 
     @Source("js/DaydreamController.js")
     TextResource getThreeDaydreamControllerJS();
+
+    @Source("js/ViveController.js")
+    TextResource getThreeViveControllerJS();
+
+    @Source("js/FirstPersonControls.js")
+    TextResource getThreeFirstPersonControlsJS();
+
+    @Source("js/TDSLoader.js")
+    TextResource getTDSLoader();
+
+    @Source("js/FBXLoader.js")
+    TextResource getFBXLoader();
+
+    //needed by FBXLoader.js
+    @Source("js/zlib.js")
+    TextResource getZlib();
+
+    @Source("js/MTLLoader.js")
+    TextResource getMTLLoader();
 }

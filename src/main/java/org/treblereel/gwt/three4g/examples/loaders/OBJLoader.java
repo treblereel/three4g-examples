@@ -67,4 +67,12 @@ public class OBJLoader {
      */
     public native Object3D parse(String text);
 
+    /**
+     * The base path from which files will be loaded. See .setPath. Default is undefined.
+     *
+     * @param path - URL
+     */
+    public native void setPath(String path);
+
+
 }

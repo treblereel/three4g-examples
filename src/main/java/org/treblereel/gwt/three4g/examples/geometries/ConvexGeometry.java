@@ -16,7 +16,7 @@ public class ConvexGeometry extends Geometry {
     /**
      * @param points — Array of Vector3s that the resulting convex hull will contain.
      */
-    public ConvexGeometry(Vector3... points) {
+    public ConvexGeometry(Vector3[] points) {
 
     }
 }

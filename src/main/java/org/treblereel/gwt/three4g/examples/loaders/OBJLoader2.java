@@ -159,7 +159,7 @@ public class OBJLoader2 {
      *
      * @param materials Array of materials - Array of Materials
      */
-    public native void setMaterials(Material... materials);
+    public native void setMaterials(Material[] materials);
 
     /**
      * @param useIndices Instructs loaders to create indexed BufferGeometry.
@@ -196,7 +196,7 @@ public class OBJLoader2 {
      * @param content        - The file content as arraybuffer or text
      * @param callbackOnLoad - Callback to be called after successful load
      */
-    public native void loadMtl(String url, ArrayBuffer content, OnLoadCallback<Object3D> callbackOnLoad);
+    public native void loadMtl(String url, Object content, OnLoadCallback<Object3D> callbackOnLoad);
 
     /**
      * Utility method for loading an mtl file according resource description. Provide url or content..
@@ -206,25 +206,6 @@ public class OBJLoader2 {
      * @param callbackOnLoad - Callback to be called after successful load
      * @param crossOrigin    - (optional) CORS value
      */
-    public native void loadMtl(String url, ArrayBuffer content, OnLoadCallback<Object3D> callbackOnLoad, String crossOrigin);
-
-    /**
-     * Utility method for loading an mtl file according resource description. Provide url or content..
-     *
-     * @param url            - URL to the file
-     * @param content        - The file content as arraybuffer or text
-     * @param callbackOnLoad - Callback to be called after successful load
-     */
-    public native void loadMtl(String url, String content, OnLoadCallback<Object3D> callbackOnLoad);
-
-    /**
-     * Utility method for loading an mtl file according resource description. Provide url or content..
-     *
-     * @param url            - URL to the file
-     * @param content        - The file content as arraybuffer or text
-     * @param callbackOnLoad - Callback to be called after successful load
-     * @param crossOrigin    - (optional) CORS value
-     */
-    public native void loadMtl(String url, String content, OnLoadCallback<Object3D> callbackOnLoad, String crossOrigin);
+    public native void loadMtl(String url, Object content, OnLoadCallback<Object3D> callbackOnLoad, String crossOrigin);
 
 }

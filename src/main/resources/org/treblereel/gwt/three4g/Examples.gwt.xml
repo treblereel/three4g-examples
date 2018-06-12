@@ -4,6 +4,8 @@
 <module>
     <inherits name="org.treblereel.gwt.Three4G"/>
     <inherits name="elemental2.vr.VR"/>
+    <inherits name="elemental2.gamepad.Gamepad"/>
+
 
     <entry-point class="org.treblereel.gwt.three4g.examples.Examples"/>
 

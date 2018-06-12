@@ -54,7 +54,7 @@ public class QuickHull {
      * @param points - Array of Vector3s that the resulting convex hull will contain.
      * @return instance of QuickHull
      */
-    public native QuickHull setFromPoints(Vector3... points);
+    public native QuickHull setFromPoints(Vector3[] points);
 
 
     /**
@@ -117,7 +117,7 @@ public class QuickHull {
      * @param newFaces - An array of new faces.
      * @return instance of QuickHull
      */
-    public native QuickHull resolveUnassignedPoints(Face... newFaces);
+    public native QuickHull resolveUnassignedPoints(Face[] newFaces);
 
 
     /**
