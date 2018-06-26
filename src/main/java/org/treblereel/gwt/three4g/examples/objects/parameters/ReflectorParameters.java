@@ -1,7 +1,8 @@
-package org.treblereel.gwt.three4g.examples.objects;
+package org.treblereel.gwt.three4g.examples.objects.parameters;
 
 import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
+import org.treblereel.gwt.three4g.core.JsObject;
 
 /**
  * @author Dmitrii Tikhomirov
@@ -9,4 +10,12 @@ import jsinterop.annotations.JsType;
  */
 @JsType(isNative = true, namespace = JsPackage.GLOBAL, name = "Object")
 public class ReflectorParameters {
+
+    public double textureWidth, textureHeight;
+
+    public int clipBias;
+
+    public boolean recursion;
+
+    public JsObject shader;
 }
