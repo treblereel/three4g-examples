@@ -105,4 +105,13 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
 
     @Source("js/MTLLoader.js")
     TextResource getMTLLoader();
+
+    @Source("js/Lensflare.js")
+    TextResource getLensflare();
+
+    @Source("js/Reflector.js")
+    TextResource getReflector();
+
+    @Source("js/DragControls.js")
+    TextResource getDragControls();
 }
