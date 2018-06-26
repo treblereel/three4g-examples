@@ -1,6 +1,5 @@
 package org.treblereel.gwt.three4g.examples.loaders;
 
-import com.google.gwt.core.client.JavaScriptObject;
 import elemental2.core.ArrayBuffer;
 import jsinterop.annotations.JsType;
 import org.treblereel.gwt.three4g.loaders.OnErrorCallback;
