@@ -1,7 +1,6 @@
 package org.treblereel.gwt.three4g.examples.loaders;
 
 import com.google.gwt.json.client.JSONObject;
-import jsinterop.annotations.JsConstructor;
 import jsinterop.annotations.JsType;
 import org.treblereel.gwt.three4g.core.Object3D;
 import org.treblereel.gwt.three4g.loaders.OnErrorCallback;

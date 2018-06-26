@@ -4,9 +4,8 @@ import elemental2.dom.HTMLElement;
 import jsinterop.annotations.JsConstructor;
 import jsinterop.annotations.JsType;
 import org.treblereel.gwt.three4g.cameras.Camera;
-import org.treblereel.gwt.three4g.core.EventDispatcher;
 import org.treblereel.gwt.three4g.core.Keys;
-import org.treblereel.gwt.three4g.core.Mouse;
+import org.treblereel.gwt.three4g.core.events.EventDispatcher;
 import org.treblereel.gwt.three4g.math.Vector3;
 
 /**
