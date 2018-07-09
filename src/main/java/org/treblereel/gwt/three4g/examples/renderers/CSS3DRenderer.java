@@ -41,7 +41,7 @@ public class CSS3DRenderer {
 
     /**
      * Renders a scene using a camera.
-     *
+     *CanvasRenderer
      * @param scene  instance of Scene
      * @param camera instance of Camera
      */

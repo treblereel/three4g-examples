@@ -14,7 +14,7 @@ import org.treblereel.gwt.three4g.loaders.managers.LoadingManager;
 public class ColladaLoader {
 
     /**
-     * If set, assigns the crossOrigin attribute of the image to the value of crossOrigin, prior to starting the load. Default is undefined.
+     * If set, assigns the crossOrigin attribute of the image to the value of crossOrigin, prior to starting the load. Default is anonymous.
      */
     public String crossOrigin;
 
@@ -57,6 +57,7 @@ public class ColladaLoader {
      * Set the .crossOrigin attribute.
      *
      * @param origin crossOrigin attribute
+     * @return instance of ColladaLoader
      */
-    public native void setCrossOrigin(String origin);
+    public native ColladaLoader setCrossOrigin(String origin);
 }

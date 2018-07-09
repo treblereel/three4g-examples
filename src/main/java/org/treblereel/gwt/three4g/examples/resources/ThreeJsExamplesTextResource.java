@@ -114,4 +114,10 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
 
     @Source("js/DragControls.js")
     TextResource getDragControls();
+
+    @Source("js/CanvasRenderer.js")
+    TextResource getCanvasRenderer();
+
+    @Source("js/Projector.js")
+    TextResource getProjector();
 }
