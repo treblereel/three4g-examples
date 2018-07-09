@@ -13,6 +13,11 @@ import org.treblereel.gwt.three4g.loaders.managers.LoadingManager;
 @JsType(isNative = true, namespace = "THREE")
 public class FBXLoader {
 
+    /**
+     * If set, assigns the crossOrigin attribute of the image to the value of crossOrigin, prior to starting the load. Default is anonymous.
+     */
+    public String crossOrigin;
+
     public FBXLoader() {
 
     }
@@ -55,4 +60,11 @@ public class FBXLoader {
      */
     public native void load(String url, OnLoadCallback onLoad, OnProgressCallback onProgress, OnErrorCallback onError);
 
+    /**
+     * Set the crossOrigin attribute.
+     *
+     * @param origin crossOrigin attribute
+     * @return instance of FBXLoader
+     */
+    public native FBXLoader setCrossOrigin(String origin);
 }

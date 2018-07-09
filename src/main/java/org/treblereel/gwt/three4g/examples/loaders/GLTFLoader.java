@@ -29,6 +29,11 @@ import org.treblereel.gwt.three4g.loaders.managers.LoadingManager;
 @JsType(isNative = true, namespace = "THREE")
 public class GLTFLoader {
 
+    /**
+     * If set, assigns the crossOrigin attribute of the image to the value of crossOrigin, prior to starting the load. Default is anonymous.
+     */
+    public String crossOrigin;
+
     public GLTFLoader() {
 
     }

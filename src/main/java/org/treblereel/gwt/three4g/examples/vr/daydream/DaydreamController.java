@@ -8,6 +8,7 @@ import org.treblereel.gwt.three4g.core.Object3D;
  * Created by treblereel on 5/28/18.
  */
 @JsType(isNative = true, namespace = "THREE")
+@Deprecated
 public class DaydreamController extends Object3D {
 
     /**
