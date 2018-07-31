@@ -120,4 +120,7 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
 
     @Source("js/Projector.js")
     TextResource getProjector();
+
+    @Source("js/PLYLoader.js")
+    TextResource getPLYLoader();
 }
