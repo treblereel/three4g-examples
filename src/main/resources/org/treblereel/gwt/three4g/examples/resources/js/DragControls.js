@@ -123,37 +123,19 @@ THREE.DragControls = function ( _objects, _camera, _domElement ) {
 
 		var intersects = _raycaster.intersectObjects( _objects );
 
-
-        console.log("size " +intersects.length)
-
-        // console.log(JSON.stringify(intersects))
-
-
-
 		if ( intersects.length > 0 ) {
-
-                         console.log(JSON.stringify(intersects[ 0 ].object))
-
 
 			_selected = intersects[ 0 ].object;
 
 			if ( _raycaster.ray.intersectPlane( _plane, _intersection ) ) {
-        console.log("1 ")
 
 				_offset.copy( _intersection ).sub( _selected.position );
-
-        console.log("2 ")
 
 			}
 
 			_domElement.style.cursor = 'move';
-        console.log("3 " + _selected.uuid)
 
 			scope.dispatchEvent( { type: 'dragstart', object: _selected } );
-
-
-			        console.log("4")
-
 
 		}
 
@@ -172,7 +154,7 @@ THREE.DragControls = function ( _objects, _camera, _domElement ) {
 
 		}
 
-		_domElement.style.cursor = 'auto';
+		_domElement.style.cursor = _hovered ? 'pointer' : 'auto';
 
 	}
 
