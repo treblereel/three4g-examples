@@ -63,8 +63,17 @@ public class TGALoader {
 
     /**
      * //TODO check it
+     *
      * @param text — ArrayBuffer to parse.
      * @return instance of Texture
      */
     public native Texture parse(ArrayBuffer text);
+
+    /**
+     * Set the base path or URL from which to load files. This can be useful if you are loading many models from the same directory.
+     *
+     * @param path base path or URL
+     * @return instance of TextureLoader
+     */
+    public native TGALoader setPath(String path);
 }
