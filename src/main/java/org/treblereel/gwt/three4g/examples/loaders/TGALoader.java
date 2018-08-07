@@ -30,6 +30,7 @@ public class TGALoader {
      * Begin loading from url and pass the loaded texture to onLoad. The texture is also directly returned for immediate use (but may not be fully loaded).
      *
      * @param url — A string containing the path/URL of the .tga file.
+     * @return instance of Texture
      */
     public native Texture load(String url);
 
@@ -38,8 +39,9 @@ public class TGALoader {
      *
      * @param url    — A string containing the path/URL of the .tga file.
      * @param onLoad —  A function to be called after loading is successfully completed. The function receives loaded DataTexture as an argument.
+     * @return instance of Texture
      */
-    public native void load(String url, OnLoadCallback<Texture> onLoad);
+    public native Texture load(String url, OnLoadCallback<Texture> onLoad);
 
     /**
      * Begin loading from url and pass the loaded texture to onLoad. The texture is also directly returned for immediate use (but may not be fully loaded).
@@ -47,8 +49,9 @@ public class TGALoader {
      * @param url        — A string containing the path/URL of the .tga file.
      * @param onLoad     —  A function to be called after loading is successfully completed. The function receives loaded DataTexture as an argument.
      * @param onProgress —  A function to be called while the loading is in progress. The argument will be the XMLHttpRequest instance, which contains .total and .loaded bytes.
+     * @return instance of Texture
      */
-    public native void load(String url, OnLoadCallback<Texture> onLoad, OnProgressCallback onProgress);
+    public native Texture load(String url, OnLoadCallback<Texture> onLoad, OnProgressCallback onProgress);
 
     /**
      * Begin loading from url and pass the loaded texture to onLoad. The texture is also directly returned for immediate use (but may not be fully loaded).
@@ -57,8 +60,9 @@ public class TGALoader {
      * @param onLoad     —  A function to be called after loading is successfully completed. The function receives loaded DataTexture as an argument.
      * @param onProgress —  A function to be called while the loading is in progress. The argument will be the XMLHttpRequest instance, which contains .total and .loaded bytes.
      * @param onError    —  A function to be called if an error occurs during loading. The function receives the error as an argument.
+     * @return instance of Texture
      */
-    public native void load(String url, OnLoadCallback<Texture> onLoad, OnProgressCallback onProgress, OnErrorCallback onError);
+    public native Texture load(String url, OnLoadCallback<Texture> onLoad, OnProgressCallback onProgress, OnErrorCallback onError);
 
 
     /**

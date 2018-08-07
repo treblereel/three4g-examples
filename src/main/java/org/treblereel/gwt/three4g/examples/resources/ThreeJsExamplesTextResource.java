@@ -123,4 +123,16 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
 
     @Source("js/PLYLoader.js")
     TextResource getPLYLoader();
+
+    @Source("js/RGBELoader.js")
+    TextResource getRGBELoader();
+
+    @Source("js/HDRCubeTextureLoader.js")
+    TextResource getHDRCubeTextureLoader();
+
+    @Source("js/PMREMGenerator.js")
+    TextResource getPMREMGenerator();
+
+    @Source("js/PMREMCubeUVPacker.js")
+    TextResource getPMREMCubeUVPacker();
 }
