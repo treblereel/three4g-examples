@@ -135,4 +135,19 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
 
     @Source("js/PMREMCubeUVPacker.js")
     TextResource getPMREMCubeUVPacker();
+
+    @Source("js/effects/OutlineEffect.js")
+    TextResource getOutlineEffect();
+
+    @Source("js/modifers/ExplodeModifier.js")
+    TextResource getExplodeModifier();
+
+    @Source("js/modifers/SimplifyModifier.js")
+    TextResource getSimplifyModifier();
+
+    @Source("js/modifers/SubdivisionModifier.js")
+    TextResource getSubdivisionModifier();
+
+    @Source("js/modifers/TessellateModifier.js")
+    TextResource getTessellateModifier();
 }

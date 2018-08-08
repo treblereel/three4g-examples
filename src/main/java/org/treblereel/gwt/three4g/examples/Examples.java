@@ -12,7 +12,7 @@ public class Examples implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
-       load();
+        load();
     }
 
     public static void load() {
@@ -128,6 +128,21 @@ public class Examples implements EntryPoint {
                 .setWindow(ScriptInjector.TOP_WINDOW).inject();
 
         ScriptInjector.fromString(ThreeJsExamplesTextResource.IMPL.getPMREMCubeUVPacker().getText())
+                .setWindow(ScriptInjector.TOP_WINDOW).inject();
+
+        ScriptInjector.fromString(ThreeJsExamplesTextResource.IMPL.getOutlineEffect().getText())
+                .setWindow(ScriptInjector.TOP_WINDOW).inject();
+
+        ScriptInjector.fromString(ThreeJsExamplesTextResource.IMPL.getExplodeModifier().getText())
+                .setWindow(ScriptInjector.TOP_WINDOW).inject();
+
+        ScriptInjector.fromString(ThreeJsExamplesTextResource.IMPL.getSimplifyModifier().getText())
+                .setWindow(ScriptInjector.TOP_WINDOW).inject();
+
+        ScriptInjector.fromString(ThreeJsExamplesTextResource.IMPL.getSubdivisionModifier().getText())
+                .setWindow(ScriptInjector.TOP_WINDOW).inject();
+
+        ScriptInjector.fromString(ThreeJsExamplesTextResource.IMPL.getTessellateModifier().getText())
                 .setWindow(ScriptInjector.TOP_WINDOW).inject();
 
 
