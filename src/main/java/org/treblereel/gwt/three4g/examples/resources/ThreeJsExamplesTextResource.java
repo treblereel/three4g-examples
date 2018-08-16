@@ -150,4 +150,7 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
 
     @Source("js/modifers/TessellateModifier.js")
     TextResource getTessellateModifier();
+
+    @Source("js/utils/TypedArrayUtils.js")
+    TextResource getTypedArrayUtils();
 }
