@@ -187,7 +187,7 @@ public class OBJLoader2 {
      * @param text           - Textual description of the event
      * @param numericalValue - Numerical value describing the progress
      */
-    public native void onProgress(String type, String text, Number numericalValue);
+    public native void onProgress(String type, String text, float numericalValue);
 
     /**
      * Utility method for loading an mtl file according resource description. Provide url or content..

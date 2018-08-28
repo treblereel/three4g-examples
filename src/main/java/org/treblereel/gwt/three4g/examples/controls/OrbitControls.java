@@ -44,7 +44,7 @@ public class OrbitControls extends EventDispatcher {
     /**
      * Whether or not the controls are enabled.
      */
-    public boolean nabled;
+    public boolean enabled;
 
     /**
      * Set to true to enable damping (inertia), which can be used to give a sense of weight to the controls. Default is false.
