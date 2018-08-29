@@ -25,6 +25,11 @@
         </license>
     </licenses>
 
+    <organization>
+        <name>Treblereel</name>
+        <url>https://github.com/treblereel</url>
+    </organization>
+
     <scm>
         <url>https://github.com/treblereel/three4g-examples</url>
         <developerConnection>scm:git:git@github.com:treblereel/three4g-examples.git</developerConnection>
