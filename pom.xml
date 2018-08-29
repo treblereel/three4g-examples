@@ -27,7 +27,9 @@
 
     <scm>
         <url>https://github.com/treblereel/three4g-examples</url>
+        <developerConnection>scm:git:git@github.com:treblereel/three4g-examples.git</developerConnection>
         <connection>scm:git:git://github.com/treblereel/three4g-examples.git</connection>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
