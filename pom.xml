@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.treblereel.gwt</groupId>
     <artifactId>three4g-examples</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.95-beta2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>GWT:Three Examples</name>
-    <description>Three.js jsipterop based library for GWT</description>
+    <description>Three.js jsinterop based library for GWT</description>
 
     <developers>
         <developer>
@@ -26,8 +26,8 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/treblereel/three4g</url>
-        <connection>scm:git:git://github.com/treblereel/three4g.git</connection>
+        <url>https://github.com/treblereel/three4g-examples</url>
+        <connection>scm:git:git://github.com/treblereel/three4g-examples.git</connection>
     </scm>
 
     <properties>
