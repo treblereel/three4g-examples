@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.treblereel.gwt</groupId>
     <artifactId>three4g-examples</artifactId>
-    <version>0.95-beta2-SNAPSHOT</version>
+    <version>0.95-beta2</version>
     <packaging>jar</packaging>
     <name>GWT:Three Examples</name>
     <description>Three.js jsinterop based library for GWT</description>
@@ -35,7 +34,7 @@
         <url>https://github.com/treblereel/three4g-examples</url>
         <developerConnection>scm:git:git@github.com:treblereel/three4g-examples.git</developerConnection>
         <connection>scm:git:git://github.com/treblereel/three4g-examples.git</connection>
-        <tag>HEAD</tag>
+        <tag>three4g-examples-0.95-beta2</tag>
     </scm>
 
     <properties>
