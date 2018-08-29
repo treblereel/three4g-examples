@@ -48,5 +48,5 @@ public class CSS2DRenderer {
      * @param width  as Number
      * @param height as Number
      */
-    public native void setSize(Number width, Number height);
+    public native void setSize(double width, double height);
 }

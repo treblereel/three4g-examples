@@ -69,6 +69,6 @@ public class BabylonLoader {
      * @param json — The JSON structure to parse.
      * @return instance of Object3D
      */
-    public native Object3D parse(JSONObject json);
+    public native Object3D parse(String json);
 
 }
