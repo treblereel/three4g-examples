@@ -102,7 +102,7 @@
         <dependency>
             <groupId>org.treblereel.gwt</groupId>
             <artifactId>three4g</artifactId>
-            <version>${project.version}</version>
+            <version>0.95-beta2</version>
         </dependency>
         <dependency>
             <groupId>org.treblereel.gwt</groupId>
