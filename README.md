@@ -2,21 +2,13 @@
 
 ## A Three.js-examples classes wrapper for GWT
 
-# Maven (not yet)
-Current Version 0.1, implements 0.91 version of three.js
+# Maven
+Current Version 0.95-beta2, implements 0.95 version of three.js
 
 <dependency>
     <groupId>org.treblereel.gwt</groupId>
     <artifactId>three4g-examples</artifactId>
-    <version>0.1-beta1</version>
-</dependency>
-
-Snapshot Version 0.1-SNAPSHOT
-
-<dependency>
-    <groupId>org.treblereel.gwt</groupId>
-    <artifactId>three4g-examples</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.95-beta2</version>
 </dependency>
 
 # Setup
