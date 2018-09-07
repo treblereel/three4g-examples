@@ -4,6 +4,7 @@ import elemental2.dom.HTMLElement;
 import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 import org.treblereel.gwt.three4g.renderers.WebGLRenderer;
+import org.treblereel.gwt.three4g.renderers.webvr.WebXROptions;
 
 /**
  * @author Dmitrii Tikhomirov
@@ -11,5 +12,8 @@ import org.treblereel.gwt.three4g.renderers.WebGLRenderer;
  */
 @JsType(namespace = JsPackage.GLOBAL, isNative = true, name = "WEBVR")
 public class WebVR {
+
     public native static HTMLElement createButton(WebGLRenderer renderer);
+
+    public native static HTMLElement createButton(WebGLRenderer renderer, WebXROptions options);
 }

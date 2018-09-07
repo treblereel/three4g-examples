@@ -12,7 +12,7 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
 
     ThreeJsExamplesTextResource IMPL = GWT.create(ThreeJsExamplesTextResource.class);
 
-    @Source("js/OrbitControls.js")
+    @Source("js/controls/OrbitControls.js")
     TextResource getThreeOrbitControlsJS();
 
     @Source("js/DecalGeometry.js")
@@ -27,13 +27,13 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
     @Source("js/BufferGeometryUtils.js")
     TextResource getThreeBufferGeometryUtilsJS();
 
-    @Source("js/CSS2DRenderer.js")
+    @Source("js/renderers/CSS2DRenderer.js")
     TextResource getThreeCSS2DRendererJS();
 
-    @Source("js/CSS3DRenderer.js")
+    @Source("js/renderers/CSS3DRenderer.js")
     TextResource getThreeCSS3DRendererJS();
 
-    @Source("js/SVGRenderer.js")
+    @Source("js/renderers/SVGRenderer.js")
     TextResource getThreeSVGRendererJS();
 
     @Source("js/QuickHull.js")
@@ -45,65 +45,65 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
     @Source("js/GLTFExporter.js")
     TextResource getThreeGLTFExporterJS();
 
-    @Source("js/BabylonLoader.js")
+    @Source("js/loaders/BabylonLoader.js")
     TextResource getThreeBabylonLoaderJS();
 
-    @Source("js/GLTFLoader.js")
+    @Source("js/loaders/GLTFLoader.js")
     TextResource getThreeGLTFLoaderJS();
 
-    @Source("js/DRACOLoader.js")
+    @Source("js/loaders/DRACOLoader.js")
     TextResource getThreeDRACOLoaderJS();
 
     @Source("js/LoaderSupport.js")
     TextResource getThreeLoaderSupportJS();
 
-    @Source("js/OBJLoader.js")
+    @Source("js/loaders/OBJLoader.js")
     TextResource getThreeOBJLoaderJS();
 
-    @Source("js/OBJLoader2.js")
+    @Source("js/loaders/OBJLoader2.js")
     TextResource getThreeOBJLoader2JS();
 
-    @Source("js/ColladaLoader.js")
+    @Source("js/loaders/ColladaLoader.js")
     TextResource getThreeColladaLoaderJS();
 
-    @Source("js/PCDLoader.js")
+    @Source("js/loaders/PCDLoader.js")
     TextResource getThreePCDLoaderJS();
 
-    @Source("js/PDBLoader.js")
+    @Source("js/loaders/PDBLoader.js")
     TextResource getThreePDBLoaderJS();
 
-    @Source("js/SVGLoader.js")
+    @Source("js/loaders/SVGLoader.js")
     TextResource getThreeSVGLoaderJS();
 
-    @Source("js/TGALoader.js")
+    @Source("js/loaders/TGALoader.js")
     TextResource getThreeTGALoaderJS();
 
-    @Source("js/PRWMLoader.js")
+    @Source("js/loaders/PRWMLoader.js")
     TextResource getThreePRWMLoaderJS();
 
     @Source("js/WebVR.js")
     TextResource getThreeWebVRJS();
 
-    @Source("js/DaydreamController.js")
+    @Source("js/controls/DaydreamController.js")
     TextResource getThreeDaydreamControllerJS();
 
-    @Source("js/ViveController.js")
+    @Source("js/controls/ViveController.js")
     TextResource getThreeViveControllerJS();
 
-    @Source("js/FirstPersonControls.js")
+    @Source("js/controls/FirstPersonControls.js")
     TextResource getThreeFirstPersonControlsJS();
 
-    @Source("js/TDSLoader.js")
+    @Source("js/loaders/TDSLoader.js")
     TextResource getTDSLoader();
 
-    @Source("js/FBXLoader.js")
+    @Source("js/loaders/FBXLoader.js")
     TextResource getFBXLoader();
 
     //needed by FBXLoader.js
-    @Source("js/zlib.js")
+    @Source("js/loaders/zlib.js")
     TextResource getZlib();
 
-    @Source("js/MTLLoader.js")
+    @Source("js/loaders/MTLLoader.js")
     TextResource getMTLLoader();
 
     @Source("js/Lensflare.js")
@@ -112,25 +112,25 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
     @Source("js/Reflector.js")
     TextResource getReflector();
 
-    @Source("js/DragControls.js")
+    @Source("js/controls/DragControls.js")
     TextResource getDragControls();
 
-    @Source("js/CanvasRenderer.js")
+    @Source("js/renderers/CanvasRenderer.js")
     TextResource getCanvasRenderer();
 
     @Source("js/Projector.js")
     TextResource getProjector();
 
-    @Source("js/PLYLoader.js")
+    @Source("js/loaders/PLYLoader.js")
     TextResource getPLYLoader();
 
-    @Source("js/RGBELoader.js")
+    @Source("js/loaders/RGBELoader.js")
     TextResource getRGBELoader();
 
-    @Source("js/HDRCubeTextureLoader.js")
+    @Source("js/loaders/HDRCubeTextureLoader.js")
     TextResource getHDRCubeTextureLoader();
 
-    @Source("js/PMREMGenerator.js")
+    @Source("js/loaders/PMREMGenerator.js")
     TextResource getPMREMGenerator();
 
     @Source("js/PMREMCubeUVPacker.js")
