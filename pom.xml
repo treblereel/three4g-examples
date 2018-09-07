@@ -152,7 +152,7 @@
         <dependency>
             <groupId>org.treblereel.gwt</groupId>
             <artifactId>three4g</artifactId>
-            <version>0.96-beta1</version>
+            <version>0.96-beta2</version>
         </dependency>
         <dependency>
             <groupId>org.treblereel.gwt</groupId>
