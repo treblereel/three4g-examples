@@ -54,7 +54,7 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
     @Source("js/loaders/DRACOLoader.js")
     TextResource getThreeDRACOLoaderJS();
 
-    @Source("js/LoaderSupport.js")
+    @Source("js/loaders/LoaderSupport.js")
     TextResource getThreeLoaderSupportJS();
 
     @Source("js/loaders/OBJLoader.js")
@@ -130,7 +130,7 @@ public interface ThreeJsExamplesTextResource extends ClientBundle{
     @Source("js/loaders/HDRCubeTextureLoader.js")
     TextResource getHDRCubeTextureLoader();
 
-    @Source("js/loaders/PMREMGenerator.js")
+    @Source("js/PMREMGenerator.js")
     TextResource getPMREMGenerator();
 
     @Source("js/PMREMCubeUVPacker.js")
