@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.treblereel.gwt</groupId>
     <artifactId>three4g-examples</artifactId>
-    <version>0.96-beta2-SNAPSHOT</version>
+    <version>0.96-beta3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>GWT:Three Examples</name>
     <description>Three.js JsInterop based library for GWT</description>
@@ -152,7 +152,7 @@
         <dependency>
             <groupId>org.treblereel.gwt</groupId>
             <artifactId>three4g</artifactId>
-            <version>0.96-beta2</version>
+            <version>0.96-beta3</version>
         </dependency>
         <dependency>
             <groupId>org.treblereel.gwt</groupId>
